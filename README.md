@@ -41,8 +41,9 @@ Ce projet est un prototype d’arbre de compétences interactif pour RPG, dével
 
 1. **Cloner le projet :**  
 
+```bash
 git clone <URL_DU_PROJET>
-
+```
 
 2.Ouvrir le projet dans Unity 2020.1.6f1.
 
