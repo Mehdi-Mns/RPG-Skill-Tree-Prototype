@@ -16,8 +16,6 @@ Ce projet est un prototype d’arbre de compétences interactif pour RPG, dével
 - Visualisation des points dans l’éditeur Unity (SkillEditor.cs)
 - Sauvegarde des points de compétence via PlayerPrefs (non utilisée actuellement)
 
----
-
 ## Structure du projet
 
 - `Assets/Animator/` : graph de transition entre les différents états d'une compétence. 
@@ -27,15 +25,11 @@ Ce projet est un prototype d’arbre de compétences interactif pour RPG, dével
 - `Assets/Scenes/` : scènes Unity, notamment la scène principale de l’arbre.  
 - `ProjectSettings/` : paramètres du projet Unity.  
 
----
-
 ## Pré-requis
 
 - Unity **2020.1.6f1** (recommandé pour compatibilité avec le projet).  
 - TextMeshPro installé (Unity Package Manager)
 - Système d’exploitation : Windows, Mac ou Linux compatible avec Unity 2020.  
-
----
 
 ## Installation et utilisation
 
@@ -51,16 +45,12 @@ git clone <URL_DU_PROJET>
 
 4.Appuyer sur Play pour tester le prototype.
 
----
-
 ## Pistes d'améliorations :
 
 Le projet est bien fonctionnel et l'application est responsive et l'exercice m'a extrêmement motivé, mais on peut aller encore plus loin: 
-    - Ajouter plus de dépendance entre les skills (en ajoutant par exemple une liste de parents au lieu d'un seul) ce qui permettrait d'avoir besoin de débloquer plusieurs skills pour avoir accès à un nouveau.
-    - Pouvoir améliorer plusieurs fois 1 skill qui donnerait des effets améliorés et d'avoir accès à d'autres skills. 
-    - Ajouter des skills spéciaux (surtout en fin de branches) qui débloquerais une nouvelles branches ou un nouvel arbre de compétence.
-
----
+- Ajouter plus de dépendance entre les skills (en ajoutant par exemple une liste de parents au lieu d'un seul) ce qui permettrait d'avoir besoin de débloquer plusieurs skills pour avoir accès à un nouveau.
+- Pouvoir améliorer plusieurs fois 1 skill qui donnerait des effets améliorés et d'avoir accès à d'autres skills. 
+- Ajouter des skills spéciaux (surtout en fin de branches) qui débloquerais une nouvelles branches ou un nouvel arbre de compétence.
 
 ## Licence
 - Projet pedagogique – usage libre pour consultation, tests et apprentissage.
